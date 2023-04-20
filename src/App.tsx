@@ -18,12 +18,8 @@ export function App() {
   }, [])
 
   return (
-    <div>
-      <h1 style={{marginBottom: '20px'}}>Hello Word</h1>
-
-      <h2>{isRunning}</h2>
-
-    </div>
-    
+    <main className="h-screen bg-zinc-900">
+      <p>Hello Word</p>
+    </main>
   )
 }
