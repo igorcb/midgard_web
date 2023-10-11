@@ -1,3 +1,19 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+  margin: 0;
+  font-family: --apple-system, BlinkMaxSystemFont, 'Segoe UI', 'Roboto'. 'Oxygen',
+  'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Heveltica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.container {
+  @apply w-full max-w-7xl m-auto py-8;
+}
+
+.container h1 {
+  @apply text-2xl font-bold text-gray-800;
+}
